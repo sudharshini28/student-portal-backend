@@ -8,12 +8,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.0</version>
+        <version>3.3.0</version>
+        <relativePath/>
     </parent>
 
     <groupId>com.student.app</groupId>
     <artifactId>student-portal-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <name>student-portal-backend</name>
 
     <properties>
         <java.version>17</java.version>
@@ -39,8 +41,8 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
         </dependency>
 
     </dependencies>
